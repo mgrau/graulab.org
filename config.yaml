@@ -1,0 +1,128 @@
+publishdir: public
+static: /static
+builddrafts: false
+baseurl: "http://graulab.org"
+canonifyurls: true
+theme: hugo-academic-group
+title: Grau Research Group
+math: true
+copyright: "&copy; Matt Grau, 2021"
+taxonomies:
+  category: categories
+  tag: tags
+params:
+  description: Website of research group
+  author: Matt Grau
+  email: mgrau@odu.edu
+  address: >-
+    306 Oceanography & Physical Sciences Building, 4600 Elkhorn Ave, Norfolk, VA
+    23529
+  slogan: Grau Research Group
+  slogan_text: molecular ions
+  slogan_columns:
+    - title: About
+      text: >-
+        Lorem markdownum potest utinam stabat nostris circinat sui intus eminus
+        sanguis: narres gratata hastae dissimulant erat Trinacris! Et caput
+        mandata gravitate atque, caeloque Oleniae austrum! Haemonio ex neque in
+        suas iste, quem hastam alis conquerar altae, arce tutaeque est sincera
+        [fores](http://illo.com/). Et *Aetnaea in spectat* mutarent. Prospexit
+        longaeque adest fatidicamque dicemur habet, nec cognitus me Trachinia
+        sperat.
+      link: /about
+      link_text: Meet the team
+      weight: 1
+    - title: Mission
+      text: >-
+        Per peterem ex, Eurystheus videt maeonis, Paeonis uritur. Dextera
+        [legem](http://nubibus.net/qualisardeat), contigerat optabile undis
+        bene: abis sperato. Instrumenta arma, subiectas generis non ipsa patres
+        quia magna Messeneque lacrimaeque torva. Aequo crescunt inrequieta
+        feras, diu illa est occupat aequoribus hunc Elpenora tollens vult
+        robore. Finiat priora vulnere nec Nelei fit quae totidemque intibaque
+        iter longo.
+      link: /mission
+      link_text: Read more
+      weight: 2
+    - title: Approach
+      text: >-
+        Lorem markdownum in texit! Quoniam ferar tabellis modo! Nam et
+        spatiosumque puellae modo temperiemque mare canentis ministris
+        **populisque** actus flammifera
+        [dicta](http://www.geminoalpino.com/nec-pegason), non neque nutrit
+        [recingunt Phrygiae](http://vitta-telamone.org/cyllenenquearcus.php).
+        Pignoribus Phaestia Chaonis simulacraque viae et genus miratur moenibus
+        tinnitibus ex simul.
+      link: /approach
+      link_text: Read more
+      weight: 3
+  # Selected Publications section.
+  publications_selected:
+    detailed_list: true
+    title: Selected Publications
+    subtitle: ""
+  # Publications section.
+  # Section will only be displayed if there are publications in `content/publications/`.
+  publications:
+    count: 3
+    detailed_list: false
+    title: Publications
+    subtitle: ""
+    str_all: More Publications
+  # News section.
+  # Section will only be displayed if there are posts in `content/news/`.
+  news:
+    count: 2
+    title: Blog
+    subtitle: ""
+    str_all: More Posts
+    str_read_more: Read more
+  # Projects section.
+  # Section will only be displayed if there are projects in `content/project/`.
+  projects:
+    enable: false
+    title: Projects
+    subtitle: ""
+    count: 3
+    str_all: More Projects
+  # Vacancies section
+  # Section will only be displayed if there are valid vacancies in `content/vacancy`
+  vacancies:
+    title: Vacancies
+    subtitle: ""
+    count: 3
+    str_all: More Vacancies
+  # Contact section.
+  contact:
+    enable: true
+    title: Contact
+    subtitle: ""
+    autolink: false
+# Navigation Links
+# The weight parameter defines the order that the links will appear in.
+menu:
+  main:
+    - name: Home
+      url: /#top
+      weight: 1
+    - name: News
+      url: /news
+      weight: 2
+    - name: Members
+      url: /members
+      weight: 3
+    - name: Research
+      url: /research
+      weight: 4
+    - name: Projects
+      url: /projects
+      weight: 5
+    - name: Publications
+      url: /publications
+      weight: 6
+    - name: Teaching
+      url: /teaching
+      weight: 7
+    - name: Contact
+      url: /#contact
+      weight: 8

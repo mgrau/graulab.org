@@ -112,6 +112,11 @@
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
+
+          i {
+            font-size: 1.2rem;
+            vertical-align: middle;
+          }
         }
         a.award.btn {
           border-color: var(--global-highlight-color);

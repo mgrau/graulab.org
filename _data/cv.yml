@@ -1,0 +1,96 @@
+cv:
+  name: Matt Grau
+  label: Assistant Professor of Physics
+  email: mgrau@odu.edu
+  phone: "(757) 683-5827"
+  website: https://www.graulab.org
+  address:
+    street: 2100K Physical Science Building
+    city: Norfolk
+    region: VA
+    postalCode: "23529"
+
+  sections:
+    Education:
+      - studyType: Ph.D. Physics
+        institution: University of Colorado Boulder
+        location: Boulder, CO
+        start_date: "2009"
+        end_date: "2016"
+        highlights:
+          - "Thesis: *Measuring the electron electric dipole moment with trapped molecular ions*"
+      - studyType: M.S. Physics
+        institution: University of Colorado Boulder
+        location: Boulder, CO
+        start_date: "2009"
+        end_date: "2012"
+      - studyType: B.S. Physics
+        institution: California Institute of Technology
+        location: Pasadena, CA
+        start_date: "2005"
+        end_date: "2009"
+
+    Appointments:
+      - bullet: "**2021 – present** — Assistant Professor, Old Dominion University, Norfolk, VA"
+      - bullet: "**2020 – 2021** — Senior Scientist (Oberassistent), ETH Zürich, Zürich, Switzerland"
+      - bullet: "**2016 – 2019** — Postdoctoral Research Assistant, ETH Zürich, Zürich, Switzerland"
+      - bullet: "**2009 – 2015** — Graduate Research Assistant, JILA, Boulder, CO"
+
+    Honors and Awards:
+      - title: SCHEV Outstanding Faculty Award "Rising Star" Nominee
+        awarder: Old Dominion University
+        date: "2025"
+      - title: Tenure Track Faculty Distinguished Teaching Award
+        awarder: Old Dominion University College of Sciences
+        date: "2024"
+      - title: Certificate of Excellence in Undergraduate Research
+        awarder: The Perry Honors College, Old Dominion University
+        date: "2024"
+      - title: High Impact Faculty Certificate of Commendation
+        awarder: ODU Academic Success Center
+        date: "2024"
+
+    Grants:
+      - bullet: "**2024 – 2026** — *Hybrid Quantum Computation Using Qubits and Qumodes on QSCOUT.* Sandia National Laboratories. Role: PI."
+      - bullet: "**2024 – 2025** — *Fabrication of Spin Polarized Electron Sources with High Polarization and QE for DOE NP.* DOE. Role: Co-PI. $472,000."
+      - bullet: "**2024** — *Summer Research Experience for Undergraduate Students: Exploring NV-Center Quantum Sensing.* VSGC Innovative Proposals. Role: PI. $7,400."
+      - bullet: "**2023** — *Developing Capacity for Quantum Science with Trapped Ions.* ODU Program for Undergraduate Research and Scholarship. Role: PI. $10,000."
+      - bullet: "**2023** — *High School Physics and Mathematics Teacher Professional Development of Integrated STEM through Arduinos.* VSGC Innovative Proposals. Role: PI. $7,300."
+      - bullet: "**2023** — *Trapping lutetium ions for quantum computing.* VSGC New Investigator Program. Role: PI. $10,000."
+      - bullet: "**2022 – 2023** — *Enhancing the Design of Photocathodes.* DOE. Role: Co-PI. $359,000."
+      - bullet: "**2023** — *Polarized Bunched Electron Beam in Low-Energy Spin-Transparent Storage Ring as a Quantum Computer.* Jefferson Lab LDRD. Role: Co-PI. $93,220."
+      - bullet: "**2022** — *Photocathodes with 90% Polarization for DOE Nuclear Physics.* DOE. Role: Co-PI. $200,000."
+      - bullet: "**2022** — *Where is the antimatter? An investigation and mitigation of systematic errors in a novel search for new physics.* ODU Summer Research Fellowship Program. Role: PI. $7,000."
+      - bullet: "**2021** — *Seeing atoms with the naked eye* (SNF Agora 199782). Swiss National Science Foundation. Role: Co-PI. 199,978 CHF."
+
+    Teaching:
+      - bullet: "**Old Dominion University**"
+      - bullet: "Fall 2023 – 2025 — PHYS 137T: Introduction to Quantum Science and Technology"
+      - bullet: "Spring 2022 – 2025 — PHYS 456: Intermediate Quantum Mechanics"
+      - bullet: "Fall 2022, Spring 2023 — PHYS 297: Introduction to Undergraduate Research (co-Instructors: C. Hyde, Y. Zhang)"
+      - bullet: "Fall 2022 — PHYS 411: Introduction to Atomic Physics"
+      - bullet: "**ETH Zürich**"
+      - bullet: "Spring 2021 — Physics III: Introduction to optical, statistical, and quantum physics (Head TA)"
+      - bullet: "Spring 2020 — Cavity QED and Ion Trap Physics (Co-Instructor: D. Kienzler)"
+
+    Invited Talks:
+      - bullet: "Searching for Symmetry Violation with Molecular Ions and Quantum Logic. Physics Colloquium, Virginia Commonwealth University, Richmond, VA. *November 2024.*"
+      - bullet: "Searching for Symmetry Violation with Molecular Ions. Triangle Quantum Computing Seminar, Raleigh, NC. *October 2024.*"
+      - bullet: "Searching for Symmetry Violation with Molecular Ions. CQRT Seminar, University of Oklahoma, Norman, OK. *November 2023.*"
+      - bullet: "Searching for Symmetry Violation with Molecular Ions. William & Mary, Williamsburg, VA. *October 2023.*"
+      - bullet: "Trapped ion quantum computing. Jefferson Lab Accelerator Seminar, Newport News, VA. *June 2022.*"
+      - bullet: "Searching for new physics with trapped molecular ions. Van Swinderen Institute, Groningen, Netherlands. *March 2021.*"
+      - bullet: "Searching for new physics with trapped molecular ions. Old Dominion University, Norfolk, VA. *March 2021.*"
+      - bullet: "Precision tests of fundamental symmetry violation using trapped molecular ions. Durham University, UK. *April 2020.*"
+      - bullet: "Precision tests of fundamental symmetry violation using trapped molecular ions. Heinrich Heine University Düsseldorf, Germany. *November 2019.*"
+      - bullet: "Trapping Ions in an optical lattice. JILA, Boulder, CO and Caltech, Pasadena, CA. *March 2019.*"
+      - bullet: "A precision measurement of the electron's electric dipole moment using trapped molecular ions. Precision Physics, QED, and Fundamental Interactions, IESC Cargese, France. *May 2017.*"
+      - bullet: "Measuring the electron EDM with trapped molecular ions. ECTI 2016, Arosa, Switzerland. *August 2016.*"
+      - bullet: "Testing T-symmetry using trapped molecular ions. 594. WE-Heraeus-Seminar, Bad Honnef, Germany. *June 2015.*"
+
+    Service:
+      - bullet: "**Proposal Review:** Israel Science Foundation (2026); DOE, NSF, Research Corporation (2025); NSF, National Science Centre Poland — PRELUDIUM (2024); AFOSR (2023); French National Research Agency (2021)"
+      - bullet: "**Peer Review:** Journal of Quantitative Spectroscopy and Radiative Transfer (2025, 2023); IEEE Quantum Computing and Engineering QTEM Program Committee, QEC25 (2025); New Journal of Physics, Atoms (2019); Atoms (2018); Optics Express, European Physical Journal, Atoms (2017); Applied Physics B (2016)"
+      - bullet: "**Department (ODU):** AMO Faculty Search Committee (Spring 2026); Graduate Admissions Committee (2024–); Graduate Recruitment Committee, Graduate Preview Committee, Undergraduate Program Committee (2022–)"
+      - bullet: "**University (ODU):** General Education Steering Committee (Spring 2025–); General Education Student Learning Outcomes & First Year Seminar Working Groups (Summer 2025–); Radiation Safety Committee (2023–)"
+      - bullet: "**Community:** ODU Visiting Students Day Laboratory Tours (April 2025); *Searching for missing antimatter with a single ion*, ODU Science Fridays Talk (March 2024); High School STEM Teacher Professional Development Workshop Organizer (June 2023); Virginia State Science and Engineering Fair Judge (April 2022)"

@@ -1,0 +1,157 @@
+# People data for the Grau Lab website.
+# Rendered via _includes/person_card.liquid and _pages/people.md.
+
+principal_investigator:
+  name: Matt Grau
+  img: mgrau.jpg
+  role: Assistant Professor
+  department: Department of Physics
+  institution: Old Dominion University
+  office: "Room 2100K, Oceanography &amp; Physical Sciences"
+  location: Norfolk, VA 23529
+  profile_link: /mgrau/
+  cv_link: /assets/pdf/grau-cv.pdf
+
+graduate_students:
+  - name: John Hill
+    img: john-hill.jpg
+    role: Ph.D. Student
+    joined: Summer 2025
+    collaborators: Prof. Sylvain Marsillac (ECE)
+    research: Spin-polarized photocathodes
+
+  - name: Urban Kobal
+    img: urban-kobal.png
+    role: Ph.D. Student
+    joined: Summer 2023
+    research: "Ba\u207A Ion Trap"
+
+  - name: Lucas Sturnfield
+    img: lucas-sturnfield.jpg
+    role: D.Eng. Student
+    joined: Fall 2022
+    collaborators: Prof. Sylvain Marsillac (ECE)
+    research: Ion trap resonators and control systems
+
+  - name: Greg Blume
+    img: greg-blume.jpg
+    role: Ph.D. Student
+    joined: Fall 2022
+    collaborators: Prof. Sylvain Marsillac (ECE)
+    research: Spin-polarized photocathodes
+
+  - name: Will Jeffries
+    img: will-jeffries.png
+    role: Ph.D. Student
+    joined: Summer 2022
+    research: "Ba\u207A Ion Trap"
+    awards:
+      - VSGC Graduate STEM Research Fellowship
+
+undergraduate_students:
+  - name: Isaiah McCoy
+    img: isaiah-mccoy.jpg
+    role: Undergraduate Researcher
+    joined: Spring 2026
+    research: "Measuring the metastable D<sub>5/2</sub> state lifetime in Ba\u207A (Senior Thesis)"
+
+  - name: Ambrose Orth
+    img: ambrose-orth.jpg
+    role: Undergraduate Researcher
+    joined: Spring 2025
+    research: Digital pulse generation
+    awards:
+      - Undergraduate Research and Creativity Fellowship
+
+  - name: Austen Wendt
+    img: austen-wendt.jpg
+    role: Undergraduate Researcher
+    joined: Fall 2024
+    research: "Fitting NV\u207B ODMR spectra"
+
+  - name: Joshua Wager
+    img: joshua-wager.png
+    role: Undergraduate Researcher
+    joined: Fall 2022
+    research: Ion trap ablation loading (Senior Thesis)
+    awards:
+      - Undergraduate Research and Creativity Fellowship
+      - VSGC Undergraduate STEM Research Scholarship
+      - ODU Outstanding Undergraduate Researcher Award
+
+alumni:
+  - name: Kaitlyn Levine
+    role: Undergraduate Researcher
+    period: Fall 2023 – Fall 2025
+
+  - name: James Wile
+    role: Undergraduate Researcher
+    period: Summer 2025
+
+  - name: Panagiotis Taoulas
+    role: Undergraduate Researcher
+    period: Spring – Summer 2025
+
+  - name: Lawrence Umali
+    role: Undergraduate Researcher
+    period: Fall 2023 – Fall 2024
+
+  - name: Annika Cote
+    role: Senior Thesis
+    period: Summer 2024
+
+  - name: Jessica Blevins
+    role: Undergraduate Researcher
+    period: Summer 2024
+
+  - name: Michael Hildebrand
+    role: Undergraduate Researcher
+    period: Summer 2024
+
+  - name: Ryan O'Neill
+    role: Senior Thesis
+    period: Summer 2023 – Spring 2024
+
+  - name: Melanie Johnson
+    role: Undergraduate Researcher
+    period: Spring 2023 – Spring 2024
+
+  - name: Michaela Bochman
+    role: Ph.D. Student
+    period: "2023"
+
+  - name: Jacob Chaney
+    role: Undergraduate Researcher
+    period: Summer 2023
+
+  - name: Evan Johnson
+    role: Senior Thesis
+    period: Summer 2022 – Spring 2023
+
+  - name: Thomas Powell
+    role: Senior Thesis
+    period: Fall 2022 – Spring 2023
+
+  - name: David Routhier
+    role: Senior Thesis
+    period: Fall 2022 – Spring 2023
+
+  - name: DaRon Wilkins
+    role: Senior Thesis
+    period: Fall 2022 – Spring 2023
+
+  - name: Wyatt Elliot
+    role: Undergraduate Researcher
+    period: Summer 2022
+
+  - name: Alastair Deans
+    role: Undergraduate Researcher
+    period: Summer 2022
+
+  - name: Tyler Rose
+    role: Undergraduate Researcher
+    period: Spring – Summer 2022
+
+  - name: Anthony Shea
+    role: Senior Thesis
+    period: Spring 2022

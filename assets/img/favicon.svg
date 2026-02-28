@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 33 64 64">
+  <!-- Atomic ion (cyan) -->
+  <circle cx="50" cy="65" r="30" fill="#3a8a9e"/>
+  <!-- Ket |↑⟩ -->
+  <line x1="36" y1="53" x2="36" y2="77" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+  <line x1="48" y1="75" x2="48" y2="55" stroke="white" stroke-width="2.8" stroke-linecap="round"/>
+  <polyline points="42,60 48,51 54,60" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 60 53 L 67 65 L 60 77" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

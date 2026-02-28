@@ -1,3 +1,14 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  <div class="recent-publications">
+    {% bibliography --group_by none --sort_by year --order descending %}
+  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var entries = document.querySelectorAll('.recent-publications .row');
+    for (var i = 3; i < entries.length; i++) {
+      entries[i].style.display = 'none';
+    }
+  });
+</script>

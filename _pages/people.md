@@ -7,28 +7,57 @@ nav: true
 nav_order: 2
 ---
 
+{% assign pi = site.data.people.principal_investigator %}
+
 ## Principal Investigator
 
-<!-- TODO: Replace with actual PI profile block or use the profiles layout -->
+<div class="row mb-4 align-items-center">
+  <div class="col-sm-auto mb-3 mb-sm-0">
+    <img src="{{ '/assets/img/' | append: pi.img | relative_url }}" class="img-fluid rounded" style="max-width: 160px;" alt="{{ pi.name }}">
+  </div>
+  <div class="col">
+    <h4 class="mt-0">{{ pi.name }}</h4>
+    <p class="mb-1">
+      {{ pi.role }}<br>
+      {{ pi.department }}<br>
+      {{ pi.institution }}<br>
+      {{ pi.office }}<br>
+      {{ pi.location }}
+    </p>
+    <p class="mb-0">
+      <a href="{{ pi.profile_link | relative_url }}">Profile</a>
+      &nbsp;·&nbsp;
+      <a href="{{ pi.cv_link | relative_url }}" target="_blank">CV</a>
+    </p>
+  </div>
+</div>
 
 ---
 
 ## Graduate Students
 
-<!-- TODO: Add graduate student profiles -->
+<div class="people-grid">
+{% for person in site.data.people.graduate_students %}
+{% include person_card.liquid person=person %}
+{% endfor %}
+</div>
 
 ---
 
 ## Undergraduate Students
 
-<!-- TODO: Add undergraduate student profiles -->
+<div class="people-grid">
+{% for person in site.data.people.undergraduate_students %}
+{% include person_card.liquid person=person %}
+{% endfor %}
+</div>
 
 ---
 
 ## Alumni
 
-<!-- TODO: Add alumni entries -->
-
-| Name | Position | Years | Current position |
-|------|----------|-------|-----------------|
-| TODO | PhD | TODO | TODO |
+| Name | Role | Period |
+|:---|:---|:---|
+{% for person in site.data.people.alumni -%}
+| {{ person.name }} | {{ person.role }} | {{ person.period }} |
+{% endfor %}

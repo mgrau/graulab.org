@@ -13,9 +13,9 @@
   --global-theme-color: #{v.$grau-cyan-mid};
   --global-hover-color: #{v.$grau-cyan-deep};
   --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grau-bg-dark};
-  --global-footer-text-color: #{v.$grau-text-dark};
-  --global-footer-link-color: #{v.$grau-cyan-bright};
+  --global-footer-bg-color: #{v.$grau-bg-footer-light};
+  --global-footer-text-color: #{v.$grau-text-muted-light};
+  --global-footer-link-color: #{v.$grau-cyan-deep};
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{v.$white-color};

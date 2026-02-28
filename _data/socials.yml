@@ -2,9 +2,5 @@
 # Displayed as icons on the about page and footer.
 # See https://github.com/george-gca/jekyll-socials for all supported fields.
 
-email: TODO@odu.edu           # PI email address
-scholar_userid:               # TODO: Google Scholar profile ID (from scholar.google.com URL)
-inspirehep_id:                # TODO: INSPIRE-HEP author ID (for particle/AMO physics)
-orcid:                        # TODO: ORCID iD (e.g., 0000-0000-0000-0000)
-github_username: mgrau        # GitHub username
-rss_icon: true
+email: mgrau@odu.edu
+github_username: Graulab-ODU

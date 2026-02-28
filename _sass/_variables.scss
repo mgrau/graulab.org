@@ -51,13 +51,14 @@ $grau-amber: #e08000 !default;         // warm amber accent
 // Dark backgrounds — volcanic/charcoal
 $grau-bg-dark: #0d1117 !default;       // very dark background (GitHub dark style)
 $grau-bg-card: #161b22 !default;       // dark card background
-$grau-bg-footer: #010409 !default;     // near-black footer
+$grau-bg-footer: #2d2d2d !default;     // dark gray footer
 $grau-text-dark: #c9d1d9 !default;     // light gray text on dark bg
 $grau-text-muted-dark: #8b949e !default; // muted text on dark bg
 
 // Light backgrounds — clean minimal
 $grau-bg-light: #f7f7f8 !default;      // very light warm gray
 $grau-bg-nav: #ffffff !default;        // white navbar
+$grau-bg-footer-light: #e2e3e6 !default; // light gray footer (light mode)
 $grau-text-light: #1a1a2e !default;    // very dark navy text
 $grau-text-muted-light: #5a5a72 !default; // muted text on light bg
 

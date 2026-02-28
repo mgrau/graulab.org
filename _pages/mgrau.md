@@ -47,24 +47,24 @@ See the [Research](/research/) page for more detail.
 
 ## Education
 
-| Year | Degree | Institution |
-|------|--------|------------|
-| 2016 | Ph.D., Physics | University of Colorado Boulder |
-| 2012 | M.S., Physics | University of Colorado Boulder |
-| 2009 | B.S., Physics | California Institute of Technology |
+| Year | Degree         | Institution                        |
+| ---- | -------------- | ---------------------------------- |
+| 2016 | Ph.D., Physics | University of Colorado Boulder     |
+| 2012 | M.S., Physics  | University of Colorado Boulder     |
+| 2009 | B.S., Physics  | California Institute of Technology |
 
-*Ph.D. Thesis: ["Measuring the electron electric dipole moment with trapped molecular ions"](https://jila.colorado.edu/bibcite/reference/3828)*
+_Ph.D. Thesis: ["Measuring the electron electric dipole moment with trapped molecular ions"](https://jila.colorado.edu/bibcite/reference/3828)_
 
 ---
 
 ## Academic Appointments
 
-| Years | Position | Institution |
-|-------|----------|------------|
-| 2021 – present | Assistant Professor | Old Dominion University, Norfolk, VA |
-| 2020 – 2021 | Senior Scientist (Oberassistent) | ETH Zürich, Switzerland |
-| 2016 – 2019 | Postdoctoral Research Associate | ETH Zürich, Switzerland |
-| 2009 – 2016 | Graduate Research Assistant | JILA, University of Colorado Boulder |
+| Years          | Position                         | Institution                          |
+| -------------- | -------------------------------- | ------------------------------------ |
+| 2021 – present | Assistant Professor              | Old Dominion University, Norfolk, VA |
+| 2020 – 2021    | Senior Scientist (Oberassistent) | ETH Zürich, Switzerland              |
+| 2016 – 2019    | Postdoctoral Research Associate  | ETH Zürich, Switzerland              |
+| 2009 – 2016    | Graduate Research Assistant      | JILA, University of Colorado Boulder |
 
 ---
 

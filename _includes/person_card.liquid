@@ -13,15 +13,15 @@
     <strong>{{ person.name }}</strong><br>
     <span class="text-muted">
       {{- person.role }} &middot; Joined {{ person.joined -}}
-      {% if person.collaborators %} &middot; In collaboration with {{ person.collaborators }}{% endif %}
-    </span><br>
+      {% if person.collaborators %} &middot; In collaboration with {{ person.collaborators }}{% endif %} </span
+    ><br>
     <em>Research:</em> {{ person.research }}
     {% if person.awards %}
-    <ul style="margin: 0.2rem 0 0 0; padding-left: 1.2rem;">
-      {% for award in person.awards %}
-      <li>{{ award }}</li>
-      {% endfor %}
-    </ul>
+      <ul style="margin: 0.2rem 0 0 0; padding-left: 1.2rem;">
+        {% for award in person.awards %}
+          <li>{{ award }}</li>
+        {% endfor %}
+      </ul>
     {% endif %}
   </div>
 </div>

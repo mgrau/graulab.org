@@ -36,6 +36,7 @@ In addition to strain, **quantum confinement** in the thin GaAs quantum wells fu
 ## Relevant Publications
 
 <span style="display:none">{% cite masters2026 kachwala2025 belfore2023 %}</span>
+
 <div class="publications">
   {% bibliography --cited --group_by none --sort_by year --order descending %}
 </div>

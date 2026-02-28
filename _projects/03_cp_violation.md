@@ -30,6 +30,7 @@ The central challenge of precision spectroscopy with molecular ions is state pre
 ## Relevant Publications
 
 <span style="display:none">{% cite zhou2024 kurchavov2023 maison2022 roussy2021 maison2020 %}</span>
+
 <div class="publications">
   {% bibliography --cited --group_by none --sort_by year --order descending %}
 </div>

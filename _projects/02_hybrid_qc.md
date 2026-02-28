@@ -32,6 +32,7 @@ A key application of hybrid quantum computing is the simulation of quantum field
 ## Relevant Publications
 
 <span style="display:none">{% cite rainaldi2026 araz2025 araz2024 %}</span>
+
 <div class="publications">
   {% bibliography --cited --group_by none --sort_by year --order descending %}
 </div>

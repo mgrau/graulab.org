@@ -1,69 +1,69 @@
 # APS journals
 "PRL":
   url: https://journals.aps.org/prl/
-  color: "#2e7d32"  # dark green
+  color: "#2e7d32" # dark green
 
 "PRA":
   url: https://journals.aps.org/pra/
-  color: "#00838f"  # dark cyan
+  color: "#00838f" # dark cyan
 
 "PRB":
   url: https://journals.aps.org/prb/
-  color: "#4527a0"  # deep purple
+  color: "#4527a0" # deep purple
 
 "PRC":
   url: https://journals.aps.org/prc/
-  color: "#6a1b9a"  # purple
+  color: "#6a1b9a" # purple
 
 "PRD":
   url: https://journals.aps.org/prd/
-  color: "#c62828"  # dark red
+  color: "#c62828" # dark red
 
 "PRE":
   url: https://journals.aps.org/pre/
-  color: "#558b2f"  # olive green
+  color: "#558b2f" # olive green
 
 "PRX":
   url: https://journals.aps.org/prx/
-  color: "#00695c"  # dark teal
+  color: "#00695c" # dark teal
 
 "PRR":
   url: https://journals.aps.org/prresearch/
-  color: "#3949ab"  # indigo
+  color: "#3949ab" # indigo
 
 # AIP journals
 "APL":
   url: https://pubs.aip.org/aip/apl
-  color: "#e65100"  # deep orange
+  color: "#e65100" # deep orange
 
 "JAP":
   url: https://pubs.aip.org/aip/jap
-  color: "#b45309"  # amber brown
+  color: "#b45309" # amber brown
 
 "JCP":
   url: https://pubs.aip.org/aip/jcp
-  color: "#4a148c"  # dark purple
+  color: "#4a148c" # dark purple
 
 "RSI":
   url: https://pubs.aip.org/aip/rsi
-  color: "#546e7a"  # blue grey
+  color: "#546e7a" # blue grey
 
 # Other journals
 "JMS":
   url: https://www.sciencedirect.com/journal/journal-of-molecular-spectroscopy
-  color: "#1565c0"  # dark blue
+  color: "#1565c0" # dark blue
 
 "JHEP":
   url: https://link.springer.com/journal/13130
-  color: "#880e4f"  # dark magenta
+  color: "#880e4f" # dark magenta
 
 "Science":
   url: https://www.science.org/journal/science
-  color: "#cc0000"  # Science red
+  color: "#cc0000" # Science red
 
 "Water Res.":
   url: https://www.sciencedirect.com/journal/water-research
-  color: "#0277bd"  # water blue
+  color: "#0277bd" # water blue
 
 "AJP":
   url: https://aapt.scitation.org/journal/ajp

@@ -38,6 +38,7 @@ Two-qubit gates between neighboring ions are mediated by their shared motional m
 ## Relevant Publications
 
 <span style="display:none">{% cite wipfli2023 reiter2021 jain2020 %}</span>
+
 <div class="publications">
   {% bibliography --cited --group_by none --sort_by year --order descending %}
 </div>

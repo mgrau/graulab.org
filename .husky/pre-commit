@@ -1,0 +1,7 @@
+STAGED=$(git diff --cached --name-only --diff-filter=ACM)
+if [ -z "$STAGED" ]; then
+  exit 0
+fi
+
+echo "$STAGED" | xargs npx prettier --write --ignore-unknown
+echo "$STAGED" | xargs git add

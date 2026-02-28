@@ -56,9 +56,6 @@ nav_order: 2
 
 ## Alumni
 
-| Name | Role | Period |
-| :--- | :--- | :----- |
-
 {% for person in site.data.people.alumni -%}
 | {{ person.name }} | {{ person.role }} | {{ person.period }} |
 {% endfor %}

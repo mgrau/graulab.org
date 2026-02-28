@@ -195,13 +195,24 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button" title="Abstract"><i class="fa-solid fa-file-lines"></i></a>
+        <a class="abstract btn btn-sm z-depth-0" role="button" title="Abstract" aria-label="Show abstract"
+          ><i class="fa-solid fa-file-lines" aria-hidden="true"></i
+        ></a>
       {% endif %}
       {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" title="DOI"><i class="ai ai-doi"></i></a>
+        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" title="DOI" aria-label="DOI: {{ entry.doi }}"
+          ><i class="ai ai-doi" aria-hidden="true"></i
+        ></a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" title="arXiv"><i class="ai ai-arxiv"></i></a>
+        <a
+          href="http://arxiv.org/abs/{{ entry.arxiv }}"
+          class="btn btn-sm z-depth-0"
+          role="button"
+          title="arXiv"
+          aria-label="arXiv: {{ entry.arxiv }}"
+          ><i class="ai ai-arxiv" aria-hidden="true"></i
+        ></a>
       {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
@@ -218,10 +229,12 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" title="PDF"><i class="fa-solid fa-file-pdf"></i></a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" title="PDF" aria-label="PDF"
+            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i
+          ></a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" title="PDF"
-            ><i class="fa-solid fa-file-pdf"></i
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" title="PDF" aria-label="PDF"
+            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i
           ></a>
         {% endif %}
       {% endif %}

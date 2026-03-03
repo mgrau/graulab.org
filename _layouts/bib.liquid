@@ -160,14 +160,6 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% assign entrymonth = '' %}
-    {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
-    {% endif %}
-    {% assign entryyear = '' %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
-    {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
@@ -178,8 +170,10 @@
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
+    {% capture volinfo %}{% if entry.volume %} <strong>{{ entry.volume }}</strong>{% endif %}{% if entry.issue or entry.number %}, {{ entry.issue | default: entry.number }}{% elsif entry.pages %}, {{ entry.pages }}{% endif %}{% endcapture %}
+    {% capture dateinfo %}{% if entry.month or entry.year %}({% if entry.month %}{{ entry.month | capitalize }}{{ " " }}{% endif %}{{ entry.year }}){% endif %}{% endcapture %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and volinfo != "" %}{{ volinfo }}{% endif %}{% if dateinfo != "" %} {{ dateinfo }}{% endif %}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -195,23 +189,24 @@
         </a>
       {% endif %}
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button" title="Abstract" aria-label="Show abstract"
-          ><i class="fa-solid fa-file-lines" aria-hidden="true"></i
+        <a class="abstract" role="button" title="Abstract" aria-label="Show abstract" style="cursor: pointer;"
+          ><img
+            src="https://img.shields.io/badge/abstract-8c8c8c?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzODQgNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTY0IDBDMjguNyAwIDAgMjguNyAwIDY0VjQ0OGMwIDM1LjMgMjguNyA2NCA2NCA2NEgzMjBjMzUuMyAwIDY0LTI4LjcgNjQtNjRWMTYwSDI1NmMtMTcuNyAwLTMyLTE0LjMtMzItMzJWMEg2NHpNMjU2IDBWMTI4SDM4NEwyNTYgMHpNMTEyIDI1NkgyNzJjOC44IDAgMTYgNy4yIDE2IDE2cy03LjIgMTYtMTYgMTZIMTEyYy04LjggMC0xNi03LjItMTYtMTZzNy4yLTE2IDE2LTE2em0wIDY0SDI3MmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkgxMTJjLTguOCAwLTE2LTcuMi0xNi0xNnM3LjItMTYgMTYtMTZ6bTAgNjRIMjcyYzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDExMmMtOC44IDAtMTYtNy4yLTE2LTE2czcuMi0xNiAxNi0xNnoiLz48L3N2Zz4="
+            alt="Abstract"
         ></a>
       {% endif %}
       {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" title="DOI" aria-label="DOI: {{ entry.doi }}"
-          ><i class="ai ai-doi" aria-hidden="true"></i
+        <a href="https://doi.org/{{ entry.doi }}" role="button" title="DOI" aria-label="DOI: {{ entry.doi }}"
+          ><img src="https://img.shields.io/badge/DOI-B57EDC?logo=doi&logoColor=white" alt="DOI"
         ></a>
       {% endif %}
       {% if entry.arxiv %}
         <a
           href="http://arxiv.org/abs/{{ entry.arxiv }}"
-          class="btn btn-sm z-depth-0"
           role="button"
           title="arXiv"
           aria-label="arXiv: {{ entry.arxiv }}"
-          ><i class="ai ai-arxiv" aria-hidden="true"></i
+          ><img src="https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"
         ></a>
       {% endif %}
       {% if entry.hal %}
@@ -229,12 +224,16 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" title="PDF" aria-label="PDF"
-            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i
+          <a href="{{ entry.pdf }}" role="button" title="PDF" aria-label="PDF"
+            ><img
+              src="https://img.shields.io/badge/PDF-77DD77?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTAgNjRDMCAyOC43IDI4LjcgMCA2NCAwSDIyNFYxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJIMzg0VjMwNEgxNzZjLTM1LjMgMC02NCAyOC43LTY0IDY0VjUxMkg2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRWNjR6bTM4NCA2NEgyNTZWMEwzODQgMTI4ek0xNzYgMzUyaDMyYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2SDE5MnYzMmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNlY0NDggMzY4YzAtOC44IDcuMi0xNiAxNi0xNnptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRIMTkydjQ4aDE2em05Ni04MGgzMmMyNi41IDAgNDggMjEuNSA0OCA0OHY2NGMwIDI2LjUtMjEuNSA0OC00OCA0OEgzMDRjLTguOCAwLTE2LTcuMi0xNi0xNlYzNjhjMC04LjggNy4yLTE2IDE2LTE2em0zMiAxMjhjOC44IDAgMTYtNy4yIDE2LTE2VjQwMGMwLTguOC03LjItMTYtMTYtMTZIMzIwdjk2aDE2em04MC0xMTJjMC04LjggNy4yLTE2IDE2LTE2aDQ4YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDQ0OHYzMmgzMmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkg0NDh2NDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZWNDMyIDM2OHoiLz48L3N2Zz4="
+              alt="PDF"
           ></a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" title="PDF" aria-label="PDF"
-            ><i class="fa-solid fa-file-pdf" aria-hidden="true"></i
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" role="button" title="PDF" aria-label="PDF"
+            ><img
+              src="https://img.shields.io/badge/PDF-77DD77?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTAgNjRDMCAyOC43IDI4LjcgMCA2NCAwSDIyNFYxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJIMzg0VjMwNEgxNzZjLTM1LjMgMC02NCAyOC43LTY0IDY0VjUxMkg2NGMtMzUuMyAwLTY0LTI4LjctNjQtNjRWNjR6bTM4NCA2NEgyNTZWMEwzODQgMTI4ek0xNzYgMzUyaDMyYzMwLjkgMCA1NiAyNS4xIDU2IDU2cy0yNS4xIDU2LTU2IDU2SDE5MnYzMmMwIDguOC03LjIgMTYtMTYgMTZzLTE2LTcuMi0xNi0xNlY0NDggMzY4YzAtOC44IDcuMi0xNiAxNi0xNnptMzIgODBjMTMuMyAwIDI0LTEwLjcgMjQtMjRzLTEwLjctMjQtMjQtMjRIMTkydjQ4aDE2em05Ni04MGgzMmMyNi41IDAgNDggMjEuNSA0OCA0OHY2NGMwIDI2LjUtMjEuNSA0OC00OCA0OEgzMDRjLTguOCAwLTE2LTcuMi0xNi0xNlYzNjhjMC04LjggNy4yLTE2IDE2LTE2em0zMiAxMjhjOC44IDAgMTYtNy4yIDE2LTE2VjQwMGMwLTguOC03LjItMTYtMTYtMTZIMzIwdjk2aDE2em04MC0xMTJjMC04LjggNy4yLTE2IDE2LTE2aDQ4YzguOCAwIDE2IDcuMiAxNiAxNnMtNy4yIDE2LTE2IDE2SDQ0OHYzMmgzMmM4LjggMCAxNiA3LjIgMTYgMTZzLTcuMiAxNi0xNiAxNkg0NDh2NDhjMCA4LjgtNy4yIDE2LTE2IDE2cy0xNi03LjItMTYtMTZWNDMyIDM2OHoiLz48L3N2Zz4="
+              alt="PDF"
           ></a>
         {% endif %}
       {% endif %}
@@ -273,6 +272,35 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if site.enable_publication_badges.google_scholar and entry.google_scholar_id %}
+        {% assign citation_count = 0 %}
+        {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
+        {% assign publication_key = entry.google_scholar_id %}
+        {% if site.data.citations.papers[scholar_id_key] %}
+          {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
+        {% elsif site.data.citations.papers[publication_key] %}
+          {% assign citation_count = site.data.citations.papers[publication_key].citations %}
+        {% else %}
+          {% for paper in site.data.citations.papers %}
+            {% assign paper_key = paper[0] %}
+            {% if paper_key contains entry.google_scholar_id %}
+              {% assign citation_count = paper[1].citations %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if citation_count and citation_count > 0 %}
+          <a
+            href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
+            role="button"
+            title="Cited by {{ citation_count }}"
+            aria-label="{{ citation_count }} Google Scholar citations"
+            ><img
+              src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
+              alt="{{ citation_count }} Google Scholar citations"
+          ></a>
+        {% endif %}
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
@@ -285,16 +313,11 @@
         {% assign entry_has_dimensions_badge = true %}
       {% endif %}
 
-      {% assign entry_has_google_scholar_badge = false %}
-      {% if entry.google_scholar_id %}
-        {% assign entry_has_google_scholar_badge = true %}
-      {% endif %}
-
       {% assign entry_has_inspirehep_badge = false %}
       {% if entry.inspirehep_id %}
         {% assign entry_has_inspirehep_badge = true %}
       {% endif %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_inspirehep_badge %}
+      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_inspirehep_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
@@ -330,36 +353,6 @@
               data-legend="hover-right"
               style="margin-bottom: 3px;"
             ></span>
-          {% endif %}
-          {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
-            <a
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
-              aria-label="Google Scholar link"
-              role="button"
-            >
-              {% assign citation_count = 0 %}
-              {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
-              {% assign publication_key = entry.google_scholar_id %}
-
-              {% if site.data.citations.papers[scholar_id_key] %}
-                {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
-              {% elsif site.data.citations.papers[publication_key] %}
-                {% assign citation_count = site.data.citations.papers[publication_key].citations %}
-              {% else %}
-                {% for paper in site.data.citations.papers %}
-                  {% assign paper_key = paper[0] %}
-                  {% if paper_key contains entry.google_scholar_id %}
-                    {% assign citation_count = paper[1].citations %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              <img
-                src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{{ citation_count }} Google Scholar citations"
-              >
-            </a>
           {% endif %}
           {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
             <a

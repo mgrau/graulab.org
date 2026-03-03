@@ -38,14 +38,31 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
+  }
+}
+
+// Navigation and button links should not be underlined
+.nav-link,
+.navbar-brand,
+.btn,
+.badge a,
+.links a,
+.footer a,
+footer a,
+.pagination a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
   }
 }
 

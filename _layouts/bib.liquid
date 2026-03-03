@@ -27,7 +27,7 @@
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title }} preview">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
@@ -38,7 +38,7 @@
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
-            alt=entry.preview
+            alt=entry.title
           %}
         {% endif %}
       {% endif %}
@@ -119,6 +119,8 @@
         , and
         <span
           class="more-authors"
+          role="button"
+          tabindex="0"
           title="click to view {{ more_authors_hide }}"
           onclick="
               var element = $(this);
@@ -139,6 +141,9 @@
       {% if entry.annotation %}
         <i
           class="fa-solid fa-circle-info ml-1"
+          role="button"
+          tabindex="0"
+          aria-label="Additional information"
           data-toggle="popover"
           data-placement="top"
           data-html="true"

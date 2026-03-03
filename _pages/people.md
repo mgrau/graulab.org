@@ -16,7 +16,7 @@ nav_order: 2
     <img src="{{ '/assets/img/' | append: pi.img | relative_url }}" class="img-fluid rounded" style="max-width: 160px;" alt="{{ pi.name }}">
   </div>
   <div class="col">
-    <h4 class="mt-0">{{ pi.name }}</h4>
+    <h3 class="mt-0">{{ pi.name }}</h3>
     <p class="mb-1">
       {{ pi.role }}<br>
       {{ pi.department }}<br>
@@ -27,7 +27,7 @@ nav_order: 2
     <p class="mb-0">
       <a href="{{ pi.profile_link | relative_url }}">Profile</a>
       &nbsp;·&nbsp;
-      <a href="{{ pi.cv_link | relative_url }}" target="_blank">CV</a>
+      <a href="{{ pi.cv_link | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (opens in new tab)">CV</a>
     </p>
   </div>
 </div>
@@ -55,6 +55,9 @@ nav_order: 2
 ---
 
 ## Alumni
+
+| Name | Role | Period |
+| ---- | ---- | ------ |
 
 {% for person in site.data.people.alumni -%}
 | {{ person.name }} | {{ person.role }} | {{ person.period }} |

@@ -7,6 +7,8 @@ importance: 2
 category: ion trapping
 ---
 
+This work is done in collaboration with [Felix Ringer's](https://you.stonybrook.edu/fringer/) group at Stony Brook University and the [QSCOUT](https://www.sandia.gov/quantum/quantum-information-sciences/projects/qscout/) at Sandia National Laboratories.
+
 ## Two Kinds of Quantum Information
 
 A standard quantum computer stores information in **qubits**, two-level quantum systems, for example the spin of an electron pointing up or down, or an atom in its ground or excited state. But nature is full of systems that can't be naturally described by just two levels. The electromagnetic field of a laser, the vibration of a molecule, and the oscillation of a mechanical resonator are continuous-variable systems, with an infinite ladder of energy levels.

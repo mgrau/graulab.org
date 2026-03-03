@@ -7,6 +7,8 @@ importance: 1
 category: photocathodes
 ---
 
+This work is done in collaboration with the [Sylvain Marsillac's](https://www.odu.edu/directory/sylvain-marsillac) group in Electrical & Computer Engineering, and the [Electron Gun Group](https://www.jlab.org/accel/inj_group/contact.html) at Jefferson Lab
+
 ## Why Spin-Polarized Electrons?
 
 Many important experiments in nuclear and particle physics require electron beams where the electrons all spin in the same direction. At CEBAF at Jefferson Lab in Newport News, Virginia, spin-polarized electrons are used to probe the internal structure of protons and neutrons, map the distribution of quarks and gluons inside the nucleus, and search for signatures of physics beyond the Standard Model. The degree of beam polarization directly determines the sensitivity of these experiments. A more highly polarized beam means cleaner results with less beam time.

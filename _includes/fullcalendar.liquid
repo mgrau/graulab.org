@@ -1,0 +1,125 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.css">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.1.15/index.global.min.js"></script>
+
+<style>
+  #fc-calendar {
+    --fc-button-bg-color: #0096c7;
+    --fc-button-border-color: #0096c7;
+    --fc-button-hover-bg-color: #007ba8;
+    --fc-button-hover-border-color: #007ba8;
+    --fc-button-active-bg-color: #007ba8;
+    --fc-today-bg-color: rgba(0, 150, 199, 0.08);
+    --fc-now-indicator-color: #0096c7;
+    font-size: 0.85rem;
+  }
+  #fc-calendar .fc-event {
+    cursor: pointer;
+  }
+</style>
+
+<!-- Event detail modal -->
+<div class="modal fade" id="fc-event-modal" tabindex="-1" role="dialog" aria-labelledby="fc-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="fc-modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="fc-modal-body"></div>
+    </div>
+  </div>
+</div>
+
+<div id="fc-calendar" class="mt-3 mb-1"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var calendarEl = document.getElementById('fc-calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'timeGridWeek',
+      weekends: false,
+      timeZone: 'America/New_York',
+      slotMinTime: '08:00:00',
+      slotMaxTime: '17:30:00',
+      allDaySlot: true,
+      nowIndicator: true,
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: '',
+      },
+      googleCalendarApiKey: '{{ include.api_key }}',
+      events: {
+        googleCalendarId: '{{ include.calendar_id }}',
+      },
+      height: 'auto',
+      eventDidMount: function (info) {
+        var title = (info.event.title || '').toLowerCase();
+        var color;
+        if (/class|lecture|phys\s*\d|teaching/.test(title)) {
+          color = '#27ae60';
+        } else if (/office hours?/.test(title)) {
+          color = '#e67e22';
+        } else if (/colloquium|seminar|talk|symposium/.test(title)) {
+          color = '#8e44ad';
+        } else if (/meeting|committee/.test(title)) {
+          color = '#2c3e7a';
+        } else if (/travel|away|out of office/.test(title)) {
+          color = '#c0392b';
+        } else {
+          color = '#0096c7';
+        }
+        info.el.style.backgroundColor = color;
+        info.el.style.borderColor = color;
+      },
+      eventClick: function (info) {
+        info.jsEvent.preventDefault();
+        var ev = info.event;
+        var props = ev.extendedProps;
+
+        document.getElementById('fc-modal-title').textContent = ev.title || '(Private event)';
+
+        var tz = 'America/New_York';
+        var dateOpts = { weekday: 'long', month: 'long', day: 'numeric', timeZone: tz };
+        var timeOpts = { hour: 'numeric', minute: '2-digit', timeZone: tz };
+        var lines = [];
+
+        if (ev.start) {
+          var dateStr = ev.start.toLocaleDateString('en-US', dateOpts);
+          if (ev.allDay) {
+            lines.push('<strong>When:</strong> ' + dateStr + ' (all day)');
+          } else {
+            var startStr = ev.start.toLocaleTimeString('en-US', timeOpts);
+            var endStr = ev.end ? ev.end.toLocaleTimeString('en-US', timeOpts) : '';
+            lines.push('<strong>When:</strong> ' + dateStr + ', ' + startStr + (endStr ? '–' + endStr : ''));
+          }
+        }
+        if (props.location) {
+          lines.push('<strong>Where:</strong> ' + props.location);
+        }
+        if (props.description) {
+          lines.push('<strong>Details:</strong> ' + props.description);
+        }
+        if (ev.url) {
+          lines.push('<a href="' + ev.url + '" target="_blank" rel="noopener">View in Google Calendar</a>');
+        }
+
+        document.getElementById('fc-modal-body').innerHTML = lines
+          .map(function (l) {
+            return '<p class="mb-1">' + l + '</p>';
+          })
+          .join('');
+
+        $('#fc-event-modal').modal('show');
+      },
+    });
+    calendar.render();
+  });
+</script>
+
+<p class="text-muted small mt-1">
+  <a href="https://calendar.google.com/calendar/u/0?cid={{ include.calendar_id | uri_escape }}" target="_blank">Open in Google Calendar</a>
+</p>

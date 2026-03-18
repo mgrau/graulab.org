@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /mgrau/
-title: About Me
+title: About Matt Grau
 nav: false
 ---
 
@@ -198,3 +198,7 @@ _Ph.D. Thesis: ["Measuring the electron electric dipole moment with trapped mole
 </script>
 
 <p class="text-muted small mt-1"><a href="https://calendar.google.com/calendar/u/0?cid=NTQwYzAxMTk4NmVlZGQ5ZTMwYTU0YmMxOWEzM2RmMzg2NjI2OGU0NmJhMjY4MmIzOWQzNGQyOGUyYjFkZmY4OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">Open in Google Calendar</a></p>
+
+## Bio
+
+I was born in Fairfax and grew up in Chantilly, Virginia, where I attended Thomas Jefferson High School. There I was a member of the Policy Debate team and a volunteer sysadmin for the computer lab. I went to college at Caltech, where I was a member of Lloyd House, served as Chair of the Board of Control, and majored in Physics. I did some research with Michael Cross and Mason Porter on the theory of synchronization of nonlinear oscillators. I was drawn to condensed matter theory and tried to attend the weekly condensed matter theory seminar series. It was at one of these seminars that I saw an amazing talk by Brian DeMarco at UIUC on quantum simulation in optical lattices. I reached out to Brian to see if I could work in his lab for the summer, and he graciously agreed to host me. As soon as I aligned my first tapered amplifier, I was absolutely hooked on AMO physics. I went to graduate school at the University of Colorado Boulder, where I worked with Eric Cornell and Jun Ye at JILA on a precision measurement to search for the electron electric dipole moment with trapped molecular ions. Finding that I really enjoyed building and working on the most challenging and technical aspects of experiment electronics and computer control, I joined Jonathan Home's trapped-ion quantum information group at ETH Zürich for my postdoc. In Zürich, I worked on an experiment to trap ions in an optical lattice in a power-enhancement cavity, a scalable Penning trap experiment, and a demonstration barium ion trap for science communication. Eventually I moved back to Virginia to start an AMO group at Old Dominion University in Norfolk.

@@ -75,7 +75,7 @@ _Ph.D. Thesis: ["Measuring the electron electric dipole moment with trapped mole
 
 ---
 
-## Calendar
+## [Calendar](/calendar/)
 
 {% include fullcalendar.liquid
    api_key="AIzaSyDOstcOUu0RbbdKRLjCvI93VWjtAY8Ewr4"

@@ -9,8 +9,7 @@ last_name: Grau
 contact_note: >
   The best way to reach us is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Experimental atomic physics — ion trapping for quantum information and precision measurement.
-  Old Dominion University.
+  Web page for Matt Grau's research group at ODU, focusing on experimental atomic physics, using ion traps for quantum information and precision measurement.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

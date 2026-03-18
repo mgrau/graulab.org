@@ -1,68 +1,34 @@
-# Agent Guidelines for al-folio
+# Agent Guidelines for graulab.org
 
-A simple, clean, and responsive Jekyll theme for academics.
+Website for the Grau Lab at Old Dominion University, built with Jekyll and the al-folio theme.
 
-## Quick Links by Role
+## Documentation
 
-- **Are you a coding agent?** → Read [`.github/copilot-instructions.md`](.github/copilot-instructions.md) first (tech stack, build, CI/CD, common pitfalls & solutions)
-- **Customizing the site?** → See [`.github/agents/customize.agent.md`](.github/agents/customize.agent.md)
-- **Writing documentation?** → See [`.github/agents/docs.agent.md`](.github/agents/docs.agent.md)
-- **Need setup/deployment help?** → [INSTALL.md](INSTALL.md)
-- **Troubleshooting & FAQ?** → [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- **Customization & theming?** → [CUSTOMIZE.md](CUSTOMIZE.md)
-- **Quick 5-min start?** → [QUICKSTART.md](QUICKSTART.md)
+- **[README.md](README.md)** — Local development, deployment, content editing, and customizations
+- **[.github/copilot-instructions.md](.github/copilot-instructions.md)** — Tech stack, build, CI/CD, common pitfalls
 
 ## Essential Commands
 
-### Local Development (Docker)
-
-The recommended approach is using Docker.
-
 ```bash
-# Initial setup & start dev server
-docker compose pull && docker compose up
-# Site runs at http://localhost:8080
+# Install dependencies (first time)
+bundle install
 
-# Rebuild after changing dependencies or Dockerfile
-docker compose up --build
+# Start local dev server
+bundle exec jekyll serve
+# Site runs at http://localhost:4000
 
-# Stop containers and free port 8080
-docker compose down
+# Format before committing
+npx prettier . --write
 ```
 
-### Pre-Commit Checklist
+## Key Site Conventions
 
-Before every commit, you **must** run these steps:
+- **Publications:** `_publications/papers.bib` (not `_bibliography/`)
+- **Teaching collection:** `_teaching/` (not `_teachings/`)
+- **Deploy:** push to `main` — GitHub Actions builds and deploys to `gh-pages`
+- **YAML errors:** quote strings with special characters: `title: "My: Cool Site"`
 
-1.  **Format Code:**
-    ```bash
-    # (First time only)
-    npm install --save-dev prettier @shopify/prettier-plugin-liquid
-    # Format all files
-    npx prettier . --write
-    ```
-2.  **Build Locally & Verify:**
-
-    ```bash
-    # Rebuild the site
-    docker compose up --build
-
-    # Verify by visiting http://localhost:8080.
-    # Check navigation, pages, images, and dark mode.
-    ```
-
-## Critical Configuration
-
-When modifying `_config.yml`, these **must be updated together**:
-
-- **Personal site:** `url: https://username.github.io` + `baseurl:` (empty)
-- **Project site:** `url: https://username.github.io` + `baseurl: /repo-name/`
-- **YAML errors:** Quote strings with special characters: `title: "My: Cool Site"`
-
-## Development Workflow
-
-- **Git & Commits:** For commit message format and Git practices, see [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md).
-- **Code-Specific Instructions:** Consult the relevant instruction file for your code type.
+## Code-Specific Instructions
 
 | File Type                                     | Instruction File                                                                                |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -71,11 +37,3 @@ When modifying `_config.yml`, these **must be updated together**:
 | BibTeX (`_bibliography/`)                     | [bibtex-bibliography.instructions.md](.github/instructions/bibtex-bibliography.instructions.md) |
 | Liquid templates (`_includes/`, `_layouts/`)  | [liquid-templates.instructions.md](.github/instructions/liquid-templates.instructions.md)       |
 | JavaScript (`_scripts/`)                      | [javascript-scripts.instructions.md](.github/instructions/javascript-scripts.instructions.md)   |
-
-## Common Issues
-
-For troubleshooting, see:
-
-- [Common Pitfalls & Workarounds](.github/copilot-instructions.md#common-pitfalls--workarounds) in copilot-instructions.md
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed solutions
-- [GitHub Issues](https://github.com/alshedivat/al-folio/issues) to search for your specific problem.

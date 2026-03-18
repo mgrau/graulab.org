@@ -57,27 +57,34 @@
       },
       height: 'auto',
       eventContent: function (info) {
-        var title = info.event.title || 'Private';
+        var title = info.event.title && info.event.title !== 'undefined' ? info.event.title : 'Private';
         return { html: '<div class="fc-event-title fc-sticky">' + title + '</div>' };
       },
       eventDidMount: function (info) {
         var title = (info.event.title || '').toLowerCase();
-        var color;
+        var color, textColor;
         if (/class|lecture|phys\s*\d|teaching/.test(title)) {
           color = '#27ae60';
+          textColor = '#ffffff';
         } else if (/office hours?/.test(title)) {
           color = '#e67e22';
+          textColor = '#1a1a1a';
         } else if (/colloquium|seminar|talk|symposium/.test(title)) {
           color = '#8e44ad';
+          textColor = '#ffffff';
         } else if (/meeting|committee/.test(title)) {
           color = '#2c3e7a';
+          textColor = '#ffffff';
         } else if (/travel|away|out of office/.test(title)) {
           color = '#c0392b';
+          textColor = '#ffffff';
         } else {
           color = '#0096c7';
+          textColor = '#ffffff';
         }
         info.el.style.backgroundColor = color;
         info.el.style.borderColor = color;
+        info.el.style.color = textColor;
       },
       eventClick: function (info) {
         info.jsEvent.preventDefault();

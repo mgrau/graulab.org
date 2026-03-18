@@ -56,6 +56,10 @@
         googleCalendarId: '{{ include.calendar_id }}',
       },
       height: 'auto',
+      eventContent: function (info) {
+        var title = info.event.title || 'Private';
+        return { html: '<div class="fc-event-title fc-sticky">' + title + '</div>' };
+      },
       eventDidMount: function (info) {
         var title = (info.event.title || '').toLowerCase();
         var color;

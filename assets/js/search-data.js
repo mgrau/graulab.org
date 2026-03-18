@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-people",
           title: "people",
-          description: "Current group members and alumni.",
+          description: "Grau Lab current group members and alumni.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";

@@ -1,47 +1,275 @@
-# Google Scholar citation data for Grau Lab publications
-# Last updated: 2026-03-03
-# Scholar user ID: lnh9kdIAAAAJ
-
+metadata:
+  last_updated: '2026-03-20'
 papers:
-  b0M2c_1WBrUC:
+  lnh9kdIAAAAJ:-f6ydRqryjwC:
     citations: 0
-  bFI3QPDXJZMC:
+    title: Constraining the axion coupling to time-variation of the electron's electric dipole moment
+    year: '2019'
+  lnh9kdIAAAAJ:0EnyYjriUFMC:
     citations: 0
-  f2IySw72cVMC:
-    citations: 0
-  yD5IFk8b50cC:
-    citations: 25
-  rO6llkc54NcC:
-    citations: 8
-  SeFeTyx0c_EC:
-    citations: 11
-  2P1L_qKh6hAC:
+    title: Systematics in a measurement of the electron's electric dipole moment using trapped molecular ions
+    year: '2015'
+  lnh9kdIAAAAJ:2P1L_qKh6hAC:
     citations: 4
-  35N4QoGY0k4C:
+    title: "Nuclear Magnetic Quadrupole Moment of \xB9\u2077\u2075Lu and Parity-Violating Polarization Degree of Levels in \xB9\u2077\u2075LuOH\u207A"
+    year: '2023'
+  lnh9kdIAAAAJ:35N4QoGY0k4C:
     citations: 10
-  RGFaLdJalmkC:
-    citations: 8
-  BqipwSGYUEgC:
+    title: High figure of merit spin polarized electron sources grown via MOCVD
+    year: '2023'
+  lnh9kdIAAAAJ:4JMBOYKVnBMC:
+    citations: 105
+    title: Experimental constraint on axionlike particles over seven orders of magnitude in mass
+    year: '2021'
+  lnh9kdIAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: Magnetometry for the JILA Electron Electric Dipole Moment Experiment
+    year: '2015'
+  lnh9kdIAAAAJ:70eg2SAEIzsC:
+    citations: 2
+    title: Small systems of nonlinear oscillators
+    year: '2007'
+  lnh9kdIAAAAJ:7PzlFSSx8tAC:
+    citations: 0
+    title: Trapping Ions in an optical lattice for quantum simulation
+    year: '2017'
+  lnh9kdIAAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: Precision Spectroscopy of Trapped HfF^+ with a Coherence Time of 1 Second
+    year: '2015'
+  lnh9kdIAAAAJ:9ZlFYXVOiuMC:
+    citations: 0
+    title: Toward Rotational State-Selective Photoionization of ThF+ Ions
+    year: '2016'
+  lnh9kdIAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: Progress towards an electron EDM measurement using trapped hafnium fluoride ions
+    year: '2012'
+  lnh9kdIAAAAJ:BqipwSGYUEgC:
     citations: 17
-  iH-uZ7U-co4C:
+    title: "\U0001D4AF, \U0001D4AB-Odd Effects in the LuOH\u207A Cation"
+    year: '2022'
+  lnh9kdIAAAAJ:D03iK_w7-QYC:
+    citations: 1
+    title: Preparation of MOCVD-grown photocathodes containing a strained GaAs/GaAsP superlattice
+    year: '2025'
+  lnh9kdIAAAAJ:GnPB-g6toBAC:
+    citations: 0
+    title: stability of trapped ions in paul trap with rotating bias field
+    year: '2023'
+  lnh9kdIAAAAJ:HoB7MX3m0LUC:
+    citations: 0
+    title: Investigation of the Diffraction Efficiency of an Acousto-Optic Modulator
+    year: '2024'
+  lnh9kdIAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: State-sensitive detection of HfF+ for eEDM search
+    year: '2013'
+  lnh9kdIAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: A new precision measurement of the electron's electric dipole moment using trapped ions
+    year: '2016'
+  lnh9kdIAAAAJ:L8Ckcad2t8MC:
+    citations: 2
+    title: Designing an optical lattice trap for ions
+    year: '2017'
+  lnh9kdIAAAAJ:M3NEmzRMIkIC:
+    citations: 0
+    title: 'JILA''s search for the electron electric dipole moment (eEDM): constraining beyond Standard Model physics and time-varying eEDM'
+    year: '2019'
+  lnh9kdIAAAAJ:NMxIlDl6LWMC:
+    citations: 0
+    title: Exploring the viability of spin-transparent storage rings for quantum computing
+    year: '2023'
+  lnh9kdIAAAAJ:O3NaXMp0MMsC:
+    citations: 0
+    title: Spin-transparent storage rings as a quantum computing architecture
+    year: '2023'
+  lnh9kdIAAAAJ:QIV2ME_5wuYC:
+    citations: 0
+    title: Progress of the Jila Electron Edm Experiment
+    year: '2016'
+  lnh9kdIAAAAJ:R3hNpaxXUhUC:
+    citations: 0
+    title: Experimental constraint on axion-like particle coupling over seven orders of magnitude in mass
+    year: '2020'
+  lnh9kdIAAAAJ:RGFaLdJalmkC:
+    citations: 8
+    title: Integration of a high finesse cryogenic build-up cavity with an ion trap
+    year: '2023'
+  lnh9kdIAAAAJ:RHpTSmoSYBkC:
     citations: 28
-  4JMBOYKVnBMC:
-    citations: 104
-  r0BpntZqJG4C:
-    citations: 38
-  RHpTSmoSYBkC:
-    citations: 28
-  mB3voiENLucC:
-    citations: 66
-  dhFuZR0502QC:
-    citations: 534
-  roLk4NBRz8UC:
-    citations: 46
-  WF5omc3nYNoC:
+    title: Search for CP-violating nuclear magnetic quadrupole moment using the LuOH+ cation
+    year: '2020'
+  lnh9kdIAAAAJ:Se3iqnhoufwC:
+    citations: 0
+    title: Progress towards a measurement of the electron electric dipole moment with trapped molecular ions
+    year: '2014'
+  lnh9kdIAAAAJ:SeFeTyx0c_EC:
+    citations: 11
+    title: 'Quantum logic control and precision measurements of molecular ions in a ring trap: An approach for testing fundamental symmetries'
+    year: '2024'
+  lnh9kdIAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: Progress towards a measurement of the electron electric dipole moment with trapped molecular ions
+    year: '2013'
+  lnh9kdIAAAAJ:UeHWp8X0CEIC:
+    citations: 0
+    title: Theory and Numerics of Two Synchronized Oscillators
+    year: '2009'
+  lnh9kdIAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: Coherence time in the JILA eEDM measurement using trapped molecular ions
+    year: '2014'
+  lnh9kdIAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Progress of the Jila Electron Edm Experiment
+    year: '2013'
+  lnh9kdIAAAAJ:WF5omc3nYNoC:
     citations: 304
-  YsMSGLbcyi4C:
+    title: Phase synchronization of two anharmonic nanomechanical oscillators
+    year: '2014'
+  lnh9kdIAAAAJ:YsMSGLbcyi4C:
     citations: 153
-  u-x6o8ySG0sC:
-    citations: 12
-  u5HHmVD_uO8C:
+    title: Precision spectroscopy of polarized molecules in an ion trap
+    year: '2013'
+  lnh9kdIAAAAJ:ZHo1McVdvXMC:
+    citations: 0
+    title: Particle accelerator spin-transparent storage rings for beyond state-of-the-art science
+    year: '2024'
+  lnh9kdIAAAAJ:Zph67rFs4hoC:
+    citations: 0
+    title: Increasing measurement sensitivity for the electron's electric dipole moment using trapped molecular ions
+    year: '2016'
+  lnh9kdIAAAAJ:aqlVkmm33-oC:
+    citations: 5
+    title: Measuring the electron electric dipole moment with trapped molecular ions
+    year: '2015'
+  lnh9kdIAAAAJ:b0M2c_1WBrUC:
+    citations: 0
+    title: Impact of superlattice size on quantum efficiency and polarization in MOCVD-grown strained GaAs/GaAsP photocathodes
+    year: '2026'
+  lnh9kdIAAAAJ:bFI3QPDXJZMC:
+    citations: 0
+    title: Trigonometric continuous-variable gates and hybrid quantum simulations
+    year: '2025'
+  lnh9kdIAAAAJ:blknAaTinKkC:
+    citations: 0
+    title: Polarized electrons in a low-energy spin-transparent storage ring as a quantum computer
+    year: '2023'
+  lnh9kdIAAAAJ:cFHS6HbyZ2cC:
+    citations: 0
+    title: Ion Trapping and Quantum Science
+    year: '2025'
+  lnh9kdIAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: Progress towards an electron EDM search using hafnium fluoride ions
+    year: '2011'
+  lnh9kdIAAAAJ:dfsIfKJdRG4C:
+    citations: 0
+    title: Fitting nitrogen vacancy magnetometry spectra
+    year: '2025'
+  lnh9kdIAAAAJ:dhFuZR0502QC:
+    citations: 535
+    title: "Precision measurement of the electron\u2019s electric dipole moment using trapped molecular ions"
+    year: '2017'
+  lnh9kdIAAAAJ:e5wmG9Sq2KIC:
+    citations: 0
+    title: Progress towards optically trapping 2d ion crystals
+    year: '2020'
+  lnh9kdIAAAAJ:f2IySw72cVMC:
+    citations: 0
+    title: "Modeling strain and quantum confinement in GaAs/GaxIn1\u2212 xP superlattices for spin-polarized electron sources"
+    year: '2025'
+  lnh9kdIAAAAJ:fPk4N6BV_jEC:
+    citations: 0
+    title: Design of a Linear Paul Trap for Atomic and Molecular Ion Experiments
+    year: '2024'
+  lnh9kdIAAAAJ:hC7cP41nSMkC:
+    citations: 0
+    title: Optical Trapping of Magnesium Ions in Two-Dimension Arrays and Spectroscopy on Magnesium Rydberg Atom
+    year: '2019'
+  lnh9kdIAAAAJ:hFOr9nPyWt4C:
+    citations: 0
+    title: Towards optically trapped 2d ion crystals for quantum simulation
+    year: '2019'
+  lnh9kdIAAAAJ:hMod-77fHWUC:
+    citations: 0
+    title: Locking multiple lasers to a single optical cavity
+    year: '2023'
+  lnh9kdIAAAAJ:hqOjcs7Dif8C:
+    citations: 0
+    title: Measurement of the electric dipole moment of the electron using trapped molecular ions
+    year: '2015'
+  lnh9kdIAAAAJ:iH-uZ7U-co4C:
+    citations: 30
+    title: Engineering generalized Gibbs ensembles with trapped ions
+    year: '2021'
+  lnh9kdIAAAAJ:isC4tDSrTZIC:
+    citations: 0
+    title: Autoionization of HfF for an electron EDM search
+    year: '2010'
+  lnh9kdIAAAAJ:j3f4tGmQtD8C:
+    citations: 0
+    title: Ligand Field Theory Calculation of LuOH
+    year: '2020'
+  lnh9kdIAAAAJ:kNdYIx-mwKoC:
+    citations: 1
+    title: Progress of the JILA electron EDM experiment
+    year: '2016'
+  lnh9kdIAAAAJ:k_IJM867U9cC:
+    citations: 0
+    title: "JILA\u2019s search for the electron\u2019s electric dipole moment: a novel approach to searches for new physics"
+    year: '2020'
+  lnh9kdIAAAAJ:mB3voiENLucC:
+    citations: 66
+    title: Scalable arrays of micro-penning traps for quantum computing and simulation
+    year: '2020'
+  lnh9kdIAAAAJ:maZDTaKrznsC:
+    citations: 0
+    title: Second generation measurement of the electric dipole moment of the electron using trapped ThF+ ions
+    year: '2016'
+  lnh9kdIAAAAJ:ns9cj8rnVeAC:
+    citations: 0
+    title: Polarized Particles in a Spin-Transparent Storage Ring as a Quantum Computer
+    year: '2023'
+  lnh9kdIAAAAJ:pqnbT2bcN3wC:
+    citations: 0
+    title: Generating 614 nm Laser Light to Reset Barium Ion Qubits
+    year: '2024'
+  lnh9kdIAAAAJ:pyW8ca7W8N0C:
+    citations: 0
+    title: Measurement of the isotope shift in the 350 nm and 413 nm transitions of atomic barium
+    year: '2025'
+  lnh9kdIAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: Laser-Induced Fluorescence Spectroscopy on Rotational Distribution of HfF Photoions
+    year: '2011'
+  lnh9kdIAAAAJ:r0BpntZqJG4C:
+    citations: 44
+    title: "Predictive models using \u201Ccheap and easy\u201D field measurements: Can they fill a gap in planning, monitoring, and implementing fecal sludge management solutions?"
+    year: '2021'
+  lnh9kdIAAAAJ:rO6llkc54NcC:
+    citations: 8
+    title: State preparation of lattice field theories using quantum optimal control
+    year: '2025'
+  lnh9kdIAAAAJ:roLk4NBRz8UC:
+    citations: 46
+    title: State-specific detection of trapped HfF+ by photodissociation
+    year: '2014'
+  lnh9kdIAAAAJ:u-x6o8ySG0sC:
+    citations: 13
+    title: Near-infrared LIF spectroscopy of HfF
+    year: '2012'
+  lnh9kdIAAAAJ:u5HHmVD_uO8C:
+    citations: 28
+    title: Laser-induced fluorescence studies of HfF+ produced by autoionization
+    year: '2011'
+  lnh9kdIAAAAJ:yD5IFk8b50cC:
     citations: 27
+    title: Hybrid quantum simulations with qubits and qumodes on trapped-ion platforms
+    year: '2025'
+  lnh9kdIAAAAJ:zYLM7Y9cAGgC:
+    citations: 1
+    title: Towards an electron electric dipole moment search with trapped HfF+ molecular ions
+    year: '2013'

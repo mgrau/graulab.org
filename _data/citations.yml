@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-20'
+  last_updated: '2026-04-13'
 papers:
   lnh9kdIAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: High figure of merit spin polarized electron sources grown via MOCVD
     year: '2023'
   lnh9kdIAAAAJ:4JMBOYKVnBMC:
-    citations: 105
+    citations: 106
     title: Experimental constraint on axionlike particles over seven orders of magnitude in mass
     year: '2021'
   lnh9kdIAAAAJ:5nxA0vEk-isC:
@@ -94,7 +94,7 @@ papers:
     title: Experimental constraint on axion-like particle coupling over seven orders of magnitude in mass
     year: '2020'
   lnh9kdIAAAAJ:RGFaLdJalmkC:
-    citations: 8
+    citations: 10
     title: Integration of a high finesse cryogenic build-up cavity with an ion trap
     year: '2023'
   lnh9kdIAAAAJ:RHpTSmoSYBkC:
@@ -151,8 +151,8 @@ papers:
     year: '2026'
   lnh9kdIAAAAJ:bFI3QPDXJZMC:
     citations: 0
-    title: Trigonometric continuous-variable gates and hybrid quantum simulations
-    year: '2025'
+    title: Trigonometric continuous-variable gates and hybrid quantum simulations of the sine-Gordon model
+    year: '2026'
   lnh9kdIAAAAJ:blknAaTinKkC:
     citations: 0
     title: Polarized electrons in a low-energy spin-transparent storage ring as a quantum computer
@@ -170,7 +170,7 @@ papers:
     title: Fitting nitrogen vacancy magnetometry spectra
     year: '2025'
   lnh9kdIAAAAJ:dhFuZR0502QC:
-    citations: 535
+    citations: 536
     title: "Precision measurement of the electron\u2019s electric dipole moment using trapped molecular ions"
     year: '2017'
   lnh9kdIAAAAJ:e5wmG9Sq2KIC:
@@ -222,7 +222,7 @@ papers:
     title: "JILA\u2019s search for the electron\u2019s electric dipole moment: a novel approach to searches for new physics"
     year: '2020'
   lnh9kdIAAAAJ:mB3voiENLucC:
-    citations: 66
+    citations: 67
     title: Scalable arrays of micro-penning traps for quantum computing and simulation
     year: '2020'
   lnh9kdIAAAAJ:maZDTaKrznsC:

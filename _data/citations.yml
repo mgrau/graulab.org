@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-05-04'
 papers:
   lnh9kdIAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -46,7 +46,7 @@ papers:
     title: Progress towards an electron EDM measurement using trapped hafnium fluoride ions
     year: '2012'
   lnh9kdIAAAAJ:BqipwSGYUEgC:
-    citations: 17
+    citations: 18
     title: "\U0001D4AF, \U0001D4AB-Odd Effects in the LuOH\u207A Cation"
     year: '2022'
   lnh9kdIAAAAJ:D03iK_w7-QYC:
@@ -106,7 +106,7 @@ papers:
     title: Progress towards a measurement of the electron electric dipole moment with trapped molecular ions
     year: '2014'
   lnh9kdIAAAAJ:SeFeTyx0c_EC:
-    citations: 11
+    citations: 12
     title: 'Quantum logic control and precision measurements of molecular ions in a ring trap: An approach for testing fundamental symmetries'
     year: '2024'
   lnh9kdIAAAAJ:Tyk-4Ss8FVUC:
@@ -126,7 +126,7 @@ papers:
     title: Progress of the Jila Electron Edm Experiment
     year: '2013'
   lnh9kdIAAAAJ:WF5omc3nYNoC:
-    citations: 304
+    citations: 308
     title: Phase synchronization of two anharmonic nanomechanical oscillators
     year: '2014'
   lnh9kdIAAAAJ:YsMSGLbcyi4C:
@@ -142,7 +142,7 @@ papers:
     title: Increasing measurement sensitivity for the electron's electric dipole moment using trapped molecular ions
     year: '2016'
   lnh9kdIAAAAJ:aqlVkmm33-oC:
-    citations: 5
+    citations: 6
     title: Measuring the electron electric dipole moment with trapped molecular ions
     year: '2015'
   lnh9kdIAAAAJ:b0M2c_1WBrUC:
@@ -150,7 +150,7 @@ papers:
     title: Impact of superlattice size on quantum efficiency and polarization in MOCVD-grown strained GaAs/GaAsP photocathodes
     year: '2026'
   lnh9kdIAAAAJ:bFI3QPDXJZMC:
-    citations: 0
+    citations: 1
     title: Trigonometric continuous-variable gates and hybrid quantum simulations of the sine-Gordon model
     year: '2026'
   lnh9kdIAAAAJ:blknAaTinKkC:
@@ -170,7 +170,7 @@ papers:
     title: Fitting nitrogen vacancy magnetometry spectra
     year: '2025'
   lnh9kdIAAAAJ:dhFuZR0502QC:
-    citations: 536
+    citations: 537
     title: "Precision measurement of the electron\u2019s electric dipole moment using trapped molecular ions"
     year: '2017'
   lnh9kdIAAAAJ:e5wmG9Sq2KIC:
@@ -266,7 +266,7 @@ papers:
     title: Laser-induced fluorescence studies of HfF+ produced by autoionization
     year: '2011'
   lnh9kdIAAAAJ:yD5IFk8b50cC:
-    citations: 27
+    citations: 32
     title: Hybrid quantum simulations with qubits and qumodes on trapped-ion platforms
     year: '2025'
   lnh9kdIAAAAJ:zYLM7Y9cAGgC:

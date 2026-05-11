@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-11'
 papers:
   lnh9kdIAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: High figure of merit spin polarized electron sources grown via MOCVD
     year: '2023'
   lnh9kdIAAAAJ:4JMBOYKVnBMC:
-    citations: 106
+    citations: 107
     title: Experimental constraint on axionlike particles over seven orders of magnitude in mass
     year: '2021'
   lnh9kdIAAAAJ:5nxA0vEk-isC:
@@ -98,7 +98,7 @@ papers:
     title: Integration of a high finesse cryogenic build-up cavity with an ion trap
     year: '2023'
   lnh9kdIAAAAJ:RHpTSmoSYBkC:
-    citations: 28
+    citations: 29
     title: Search for CP-violating nuclear magnetic quadrupole moment using the LuOH+ cation
     year: '2020'
   lnh9kdIAAAAJ:Se3iqnhoufwC:
@@ -170,7 +170,7 @@ papers:
     title: Fitting nitrogen vacancy magnetometry spectra
     year: '2025'
   lnh9kdIAAAAJ:dhFuZR0502QC:
-    citations: 537
+    citations: 538
     title: "Precision measurement of the electron\u2019s electric dipole moment using trapped molecular ions"
     year: '2017'
   lnh9kdIAAAAJ:e5wmG9Sq2KIC:
@@ -262,7 +262,7 @@ papers:
     title: Near-infrared LIF spectroscopy of HfF
     year: '2012'
   lnh9kdIAAAAJ:u5HHmVD_uO8C:
-    citations: 28
+    citations: 29
     title: Laser-induced fluorescence studies of HfF+ produced by autoionization
     year: '2011'
   lnh9kdIAAAAJ:yD5IFk8b50cC:

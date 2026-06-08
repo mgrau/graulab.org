@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-11'
+  last_updated: '2026-06-08'
 papers:
   lnh9kdIAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -126,7 +126,7 @@ papers:
     title: Progress of the Jila Electron Edm Experiment
     year: '2013'
   lnh9kdIAAAAJ:WF5omc3nYNoC:
-    citations: 308
+    citations: 310
     title: Phase synchronization of two anharmonic nanomechanical oscillators
     year: '2014'
   lnh9kdIAAAAJ:YsMSGLbcyi4C:
@@ -170,7 +170,7 @@ papers:
     title: Fitting nitrogen vacancy magnetometry spectra
     year: '2025'
   lnh9kdIAAAAJ:dhFuZR0502QC:
-    citations: 538
+    citations: 541
     title: "Precision measurement of the electron\u2019s electric dipole moment using trapped molecular ions"
     year: '2017'
   lnh9kdIAAAAJ:e5wmG9Sq2KIC:
@@ -222,7 +222,7 @@ papers:
     title: "JILA\u2019s search for the electron\u2019s electric dipole moment: a novel approach to searches for new physics"
     year: '2020'
   lnh9kdIAAAAJ:mB3voiENLucC:
-    citations: 67
+    citations: 70
     title: Scalable arrays of micro-penning traps for quantum computing and simulation
     year: '2020'
   lnh9kdIAAAAJ:maZDTaKrznsC:
@@ -262,7 +262,7 @@ papers:
     title: Near-infrared LIF spectroscopy of HfF
     year: '2012'
   lnh9kdIAAAAJ:u5HHmVD_uO8C:
-    citations: 29
+    citations: 30
     title: Laser-induced fluorescence studies of HfF+ produced by autoionization
     year: '2011'
   lnh9kdIAAAAJ:yD5IFk8b50cC:

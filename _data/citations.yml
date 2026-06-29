@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-29'
 papers:
   lnh9kdIAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -49,6 +49,10 @@ papers:
     citations: 18
     title: "\U0001D4AF, \U0001D4AB-Odd Effects in the LuOH\u207A Cation"
     year: '2022'
+  lnh9kdIAAAAJ:CHSYGLWDkRkC:
+    citations: 0
+    title: Enhancing the Design of Photocathodes with 90% polarization and QE> 1% for DOE NP
+    year: '2025'
   lnh9kdIAAAAJ:D03iK_w7-QYC:
     citations: 1
     title: Preparation of MOCVD-grown photocathodes containing a strained GaAs/GaAsP superlattice
@@ -81,6 +85,10 @@ papers:
     citations: 0
     title: Exploring the viability of spin-transparent storage rings for quantum computing
     year: '2023'
+  lnh9kdIAAAAJ:NhqRSupF_l8C:
+    citations: 0
+    title: 'Spins and Ladders: Building Qubit-Boson Computing in the QSCOUT Trapped-Ion Testbed'
+    year: '2026'
   lnh9kdIAAAAJ:O3NaXMp0MMsC:
     citations: 0
     title: Spin-transparent storage rings as a quantum computing architecture
@@ -126,7 +134,7 @@ papers:
     title: Progress of the Jila Electron Edm Experiment
     year: '2013'
   lnh9kdIAAAAJ:WF5omc3nYNoC:
-    citations: 310
+    citations: 311
     title: Phase synchronization of two anharmonic nanomechanical oscillators
     year: '2014'
   lnh9kdIAAAAJ:YsMSGLbcyi4C:
@@ -134,7 +142,7 @@ papers:
     title: Precision spectroscopy of polarized molecules in an ion trap
     year: '2013'
   lnh9kdIAAAAJ:ZHo1McVdvXMC:
-    citations: 0
+    citations: 3
     title: Particle accelerator spin-transparent storage rings for beyond state-of-the-art science
     year: '2024'
   lnh9kdIAAAAJ:Zph67rFs4hoC:
@@ -150,7 +158,7 @@ papers:
     title: Impact of superlattice size on quantum efficiency and polarization in MOCVD-grown strained GaAs/GaAsP photocathodes
     year: '2026'
   lnh9kdIAAAAJ:bFI3QPDXJZMC:
-    citations: 1
+    citations: 2
     title: Trigonometric continuous-variable gates and hybrid quantum simulations of the sine-Gordon model
     year: '2026'
   lnh9kdIAAAAJ:blknAaTinKkC:
@@ -170,7 +178,7 @@ papers:
     title: Fitting nitrogen vacancy magnetometry spectra
     year: '2025'
   lnh9kdIAAAAJ:dhFuZR0502QC:
-    citations: 541
+    citations: 542
     title: "Precision measurement of the electron\u2019s electric dipole moment using trapped molecular ions"
     year: '2017'
   lnh9kdIAAAAJ:e5wmG9Sq2KIC:
@@ -222,7 +230,7 @@ papers:
     title: "JILA\u2019s search for the electron\u2019s electric dipole moment: a novel approach to searches for new physics"
     year: '2020'
   lnh9kdIAAAAJ:mB3voiENLucC:
-    citations: 70
+    citations: 71
     title: Scalable arrays of micro-penning traps for quantum computing and simulation
     year: '2020'
   lnh9kdIAAAAJ:maZDTaKrznsC:
@@ -246,11 +254,11 @@ papers:
     title: Laser-Induced Fluorescence Spectroscopy on Rotational Distribution of HfF Photoions
     year: '2011'
   lnh9kdIAAAAJ:r0BpntZqJG4C:
-    citations: 44
+    citations: 45
     title: "Predictive models using \u201Ccheap and easy\u201D field measurements: Can they fill a gap in planning, monitoring, and implementing fecal sludge management solutions?"
     year: '2021'
   lnh9kdIAAAAJ:rO6llkc54NcC:
-    citations: 8
+    citations: 9
     title: State preparation of lattice field theories using quantum optimal control
     year: '2025'
   lnh9kdIAAAAJ:roLk4NBRz8UC:
@@ -265,8 +273,12 @@ papers:
     citations: 30
     title: Laser-induced fluorescence studies of HfF+ produced by autoionization
     year: '2011'
+  lnh9kdIAAAAJ:xtRiw3GOFMkC:
+    citations: 0
+    title: Measurement of the Ba+ D5/2 state lifetime in cryogenic ion trap
+    year: '2026'
   lnh9kdIAAAAJ:yD5IFk8b50cC:
-    citations: 32
+    citations: 33
     title: Hybrid quantum simulations with qubits and qumodes on trapped-ion platforms
     year: '2025'
   lnh9kdIAAAAJ:zYLM7Y9cAGgC:

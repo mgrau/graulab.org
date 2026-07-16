@@ -48,6 +48,30 @@ graduate_students:
       - VSGC Graduate STEM Research Fellowship
 
 undergraduate_students:
+  - name: Jeevan Citrarasan
+    img: jeevan-citrarasan.jpg
+    role: Undergraduate Researcher
+    joined: Summer 2026
+    research: "NV\u207B centers"
+
+  - name: Rowan Marsillac
+    img: rowan-marsillac.jpg
+    role: Undergraduate Researcher
+    joined: Summer 2026
+    research: "NV\u207B centers"
+
+  - name: Cody Hardy
+    img: cody-hardy.jpg
+    role: Undergraduate Researcher
+    joined: Summer 2026
+    research: "NV\u207B centers"
+
+  - name: Jacob VanSparrentak-Herring
+    img: jacob-vansparrentak-herring.jpg
+    role: Undergraduate Researcher
+    joined: Summer 2026
+    research: "Digital hardware design"
+
   - name: Ambrose Orth
     img: ambrose-orth.jpg
     role: Undergraduate Researcher
@@ -61,18 +85,6 @@ undergraduate_students:
     role: Undergraduate Researcher
     joined: Fall 2024
     research: "Fitting NV\u207B ODMR spectra"
-
-  - name: Cody Hardy
-    img: cody-hardy.jpg
-    role: Undergraduate Researcher
-    joined: Summer 2026
-    research: "NV\u207B centers"
-
-  - name: Rowan Marsillac
-    img: rowan-marsillac.jpg
-    role: Undergraduate Researcher
-    joined: Summer 2026
-    research: "NV\u207B centers"
 
 alumni:
   - name: Joshua Wager

@@ -37,7 +37,7 @@ nav_order: 2
 ## Graduate Students
 
 <div class="people-grid">
-{% for person in site.data.people.graduate_students %}
+{% for person in site.data.people.graduate_students reversed %}
 {% include person_card.liquid person=person %}
 {% endfor %}
 </div>
@@ -47,7 +47,7 @@ nav_order: 2
 ## Undergraduate Students
 
 <div class="people-grid">
-{% for person in site.data.people.undergraduate_students %}
+{% for person in site.data.people.undergraduate_students reversed %}
 {% include person_card.liquid person=person %}
 {% endfor %}
 </div>

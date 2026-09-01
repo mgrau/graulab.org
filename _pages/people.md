@@ -27,7 +27,7 @@ nav_order: 2
     <p class="mb-0">
       <a href="{{ pi.profile_link | relative_url }}">Profile</a>
       &nbsp;·&nbsp;
-      <a href="{{ pi.cv_link | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="CV (opens in new tab)">CV</a>
+      <a href="{% if pi.cv_link contains '://' %}{{ pi.cv_link }}{% else %}{{ pi.cv_link | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="CV (opens in new tab)">CV</a>
     </p>
   </div>
 </div>

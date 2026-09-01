@@ -25,7 +25,7 @@ nav: false
       <a href="https://orcid.org/0000-0002-2684-6923" target="_blank" title="ORCID" class="mr-3"><i class="ai ai-orcid"></i></a>
       <a href="https://inspirehep.net/authors/1904640" target="_blank" title="INSPIRE" class="mr-3"><i class="ai ai-inspire"></i></a>
       <a href="https://github.com/mgrau" target="_blank" title="GitHub" class="mr-3"><i class="fab fa-github"></i></a>
-      <a href="{{ '/assets/pdf/grau-cv.pdf' | relative_url }}" target="_blank" title="Curriculum Vitae" class="mr-3" style="font-size: 1.3rem;"><i class="ai ai-cv"></i></a>
+      <a href="https://mgrau.github.io/cv/cv.pdf" target="_blank" title="Curriculum Vitae" class="mr-3" style="font-size: 1.3rem;"><i class="ai ai-cv"></i></a>
     </div>
   </div>
 </div>

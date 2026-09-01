@@ -10,7 +10,7 @@ principal_investigator:
   office: "Room 2100K, Oceanography &amp; Physical Sciences"
   location: Norfolk, VA 23529
   profile_link: /mgrau/
-  cv_link: /assets/pdf/grau-cv.pdf
+  cv_link: https://mgrau.github.io/cv/cv.pdf
 
 graduate_students:
   - name: Chamod Hewa
@@ -48,6 +48,20 @@ graduate_students:
       - VSGC Graduate STEM Research Fellowship
 
 undergraduate_students:
+  # Keep source data newest-to-oldest: _pages/people.md renders this list in reverse,
+  # so the public page reads oldest-to-newest.
+  - name: Cabell Jones
+    img: placeholder.svg
+    role: Undergraduate Researcher
+    joined: Fall 2026
+    research: Instrumentation for oceanographic lidar
+
+  - name: Ashton Trexler
+    img: placeholder.svg
+    role: Senior Thesis
+    joined: Fall 2026
+    research: Trapped-ion bosonic gates
+
   - name: Jeevan Citrarasan
     img: jeevan-citrarasan.jpg
     role: Undergraduate Researcher
@@ -85,18 +99,6 @@ undergraduate_students:
     role: Undergraduate Researcher
     joined: Fall 2024
     research: "Fitting NV\u207B ODMR spectra"
-
-  - name: Cabell Jones
-    img: placeholder.svg
-    role: Undergraduate Researcher
-    joined: Fall 2026
-    research: Instrumentation for oceanographic lidar
-
-  - name: Ashton Trexler
-    img: placeholder.svg
-    role: Senior Thesis
-    joined: Fall 2026
-    research: Trapped-ion bosonic gates
 
 alumni:
   - name: Luke Reisig

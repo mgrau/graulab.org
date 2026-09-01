@@ -92,7 +92,17 @@ undergraduate_students:
     joined: Fall 2026
     research: Instrumentation for oceanographic lidar
 
+  - name: Ashton Trexler
+    img: placeholder.svg
+    role: Senior Thesis
+    joined: Fall 2026
+    research: Trapped-ion bosonic gates
+
 alumni:
+  - name: Luke Reisig
+    role: REU Student
+    period: Summer 2026
+
   - name: Joshua Wager
     role: Undergraduate Researcher
     period: Fall 2022 – Spring 2026

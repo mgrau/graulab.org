@@ -86,6 +86,12 @@ undergraduate_students:
     joined: Fall 2024
     research: "Fitting NV\u207B ODMR spectra"
 
+  - name: Cabell Jones
+    img: placeholder.svg
+    role: Undergraduate Researcher
+    joined: Fall 2026
+    research: Instrumentation for oceanographic lidar
+
 alumni:
   - name: Joshua Wager
     role: Undergraduate Researcher

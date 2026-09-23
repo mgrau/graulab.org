@@ -50,6 +50,12 @@ graduate_students:
 undergraduate_students:
   # Keep source data newest-to-oldest: _pages/people.md renders this list in reverse,
   # so the public page reads oldest-to-newest.
+  - name: Robert Matics
+    img: robert-matics.jpg
+    role: Undergraduate Researcher
+    joined: Fall 2026
+    research: Control system automation
+
   - name: Cabell Jones
     img: placeholder.svg
     role: Undergraduate Researcher
